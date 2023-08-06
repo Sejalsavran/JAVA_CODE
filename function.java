@@ -6,8 +6,10 @@ public class function {
         System.out.println(sum);
     }
     public static void main(String args[]) {
+       
         int a =10;
         int b = 20;
+    
         sum(a, b); //function call
         product(a, b);//function call
     }
@@ -17,6 +19,8 @@ public class function {
         int product = a*b;
         System.out.println(product);
      }
+     
+
      
 
      }

@@ -1,6 +1,7 @@
 import java.util.*;
 public class loops {
     public static void main(String args[]) {
+    
        // for loop to print number from 1 to 20
         for(int i = 0; i<=20; i++) {
            System.out.println(i);
@@ -33,6 +34,9 @@ public class loops {
           for(; ;) {
             System.out.println("sejal");
           }
+      
+
+
     }
 }
     

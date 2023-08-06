@@ -17,6 +17,9 @@ public class loopsP {
         System.out.println("Want to do continue ? (yes(1) or  no(0))");
         input = sc.nextInt();
        } while(input == 1);
+
+       
+       
  
      
          }     

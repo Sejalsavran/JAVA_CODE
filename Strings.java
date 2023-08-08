@@ -22,7 +22,7 @@ public class Strings {
 
      System.out.println(fullName.length());
     
-     //to acess Charaters of a String
+     //to acess all Charaters of a String
 
      for(int i =0; i<fullName.length(); i++) {
         System.out.println(fullName.charAt(i));

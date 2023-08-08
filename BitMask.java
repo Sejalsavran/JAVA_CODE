@@ -14,11 +14,22 @@ public class BitMask {
         }
 
          //set bit
-     pos =1;
-     bitMask = 1<<pos;
+        pos =1;
+        bitMask = 1<<pos;
 
-     int newNumber = bitMask | n; 
-     System.out.println(newNumber);
+        int newNumber = bitMask | n; 
+        System.out.println(newNumber);
+        
+        //clear bit
+        pos = 2; 
+        bitMask =1<<pos;
+        int notBitMask = ~(bitMask);
+
+        int newnumber = notBitMask & n;
+        System.out.println(newnumber);
+
+        //
+
         }
        
 }

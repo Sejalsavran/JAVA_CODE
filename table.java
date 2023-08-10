@@ -11,13 +11,7 @@ public class table {
             System.out.println(table);
         }
 
-        //to check if a number is even or odd
-        if(n % 2 == 0) {
-            System.out.println("Even");
-        } else {
-            System.out.println("Odd");
-
-        }
+        
 
     }
     
